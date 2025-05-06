@@ -3,5 +3,13 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES6", "DOM", "ES2016", "ES2021.String"],
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["jest", "@testing-library/jest-dom", "vite/globals"]
+  }
 }
