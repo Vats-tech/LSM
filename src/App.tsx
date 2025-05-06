@@ -1,7 +1,8 @@
 import "./App.css";
+import LsmHome from "./components/lsm-home";
 
 function App() {
-  return <></>;
+  return <LsmHome />;
 }
 
 export default App;
