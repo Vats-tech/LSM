@@ -49,7 +49,7 @@ const LsmHeader = ({
     <div className="flex gap-4 mt-4">
       <div className="flex justify-end parse-cookie">
         <LsmButton
-          dataTestld="add-new-cookie-button"
+          dataTestId="add-new-cookie-button"
           classes="flex items-center gap-3 bg-blue-600"
           action={onClickAddNew}
           label={addLabel}
